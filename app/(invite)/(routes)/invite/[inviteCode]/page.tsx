@@ -51,7 +51,7 @@ const InvideCodePage = async ({ params }: InvitecodePageProps) => {
   });
 
   if (server) {
-    return redirect(`/server/${server.id}`);
+    return redirect(`/servers/${server.id}`);
   }
 
   return null;
