@@ -25,7 +25,7 @@ export default async function handler(
     }
 
     if (!channelId) {
-      return res.status(400).json({ error: "Channel Id missing" });
+      return res.status(400).json({ error: "Channel ID missing" });
     }
 
     if (!content) {
